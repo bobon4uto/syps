@@ -1,0 +1,4 @@
+# after building executable is target/scala-3.3.6/native/Main 
+# you can mv  target/scala-3.3.6/native/Main  ./syps
+# or even put in your path with sudo 
+scala3 BadCode.scala 2>&1 | ./syps
